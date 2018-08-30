@@ -1,0 +1,97 @@
+.page-3-text
+	border: 2px solid red
+	text-align: justify
+	margin-top: 10px
+	border: 2px solid grey
+	text-align: justify
+	padding: 20px
+	border-radius: 10px
+	box-shadow: 0 0 16px rgba(0,0,0,0.8)
+
+	&-verado
+		border-radius: 10px
+		box-shadow: 0 0 16px rgba(0,0,0,0.8)
+		height: 400px
+		width: 200px
+		
+.card-face
+	position: absolute
+	transition: 2s
+	backface-visibility: hidden
+	 
+.card-back
+	position: absolute
+	transition: 1s
+	&:hover
+		transition: 1s
+		transform: rotateY(90deg)
+		cursor: pointer
+	
+.page-3-img-card
+	margin-top: 25px
+	position: relative
+	width: 200px
+	height: 400px
+	perspective: 1000px
+
+.wrap
+	
+	&-box
+		width: 300px
+		height: 400px
+		position: absolute
+		top: 100px
+		left: 230px
+		text-align: justify
+		line-height: 1.5
+		transition: 1s
+		transform: translateX(-70%)
+		opacity: 0
+		z-index: -10
+		&-btn
+			width: 30px
+			height: 30px
+			font-size: 40px
+			position: absolute
+			top: 0
+			left: 300px
+			cursor: pointer
+			margin-top: 20px
+			margin-left: -50px
+			text-shadow:  0 0 10px rgba(0,0,0,0.5)
+		&-active
+			transform: translateX(0%)
+			opacity: 1
+
+			
+.box-btn
+	text-transform: uppercase
+	font-weight: 700
+	color: #fff
+	padding: 18px
+	padding-left: 32px
+	padding-right: 32px
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	background-color: #97B8BF
+	border-radius: 25px
+	margin-top: 8px
+	margin-left: 70px
+	border: 2px solid #ECEFF1
+	cursor: pointer
+	&:hover
+		background-color: #e65100
+		transition: 0.5s
+	&:focus
+		outline: none
+
+
+.wrap-box-title
+	text-align: justify
+	font-family: 'Roboto', sans-serif
+.title-text
+	font-weight: 700	
+				
+
+
+		
+	

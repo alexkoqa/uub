@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family:'Tahoma';
+}
+.header{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+h1{
+	font-size: 45pt;
+	color: rgba(0, 0, 0, 255);
+	text-align: left;
+	padding-top: 20px;
+}
+.text_2{
+	font-size: 30pt;
+	color: rgba(0, 0, 0, 255);
+	text-align: left;
+	margin-top: 15px;
+}
+.text_3{
+	font-size: 18pt;
+	color: rgba(0, 0, 0, 255);
+	text-align: left;
+	margin-top: 35px;
+}
+.text_4{
+	font-size: 48pt;
+	color: rgba(49, 49, 49, 255);
+	text-align: left;
+	margin-top: 47px;
+}
+.btn{
+	margin-top: 53px;
+	margin-right: 20px;
+	background-color: #f15921;
+	color: white;
+	outline: none;
+	padding: 22px 42px;
+	font-size: 18pt;
+	border-radius: 5px;
+	font-weight: bold;
+	border: 2px solid #f15921;
+}
+.btn_o{
+	background-color: transparent;
+	color: #f15921;
+	border: 2px solid #f15921;
+}
+.shipping_payment{
+	padding-top: 80px;
+	background-color: #f2f2f2;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+.col-xl-3{
+	text-align: center;
+}
+.img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+}
+span{
+	font-weight: bold;
+}
+.casper{
+	height: 80px;
+}
+
+.text_5{
+	font-size: 30pt;
+	color: rgba(51, 51, 51, 255);
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-weight: bold;
+}
+.img_buy{
+	width: 261px;
+	height: 261px;
+	margin-bottom: 20px;
+}
+.who_buy{
+	margin-bottom: 80px;
+}
